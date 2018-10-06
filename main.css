@@ -1,0 +1,44 @@
+.container{
+    text-align: center;
+    position: relative;
+    top: 30%;
+    transform: perspective(1px) translateY(-50%);
+    margin: auto;
+    width: 50%;
+    background: #EEEEEE;    
+}
+
+.header{
+    background: #78909C;    
+    text-align: left;
+    border: 0px;
+    border-radius: 3px; 
+    padding-left:15px;
+    padding-bottom:2px;
+    padding-top:2px;
+    color:#fff;
+    font-family: 'Open Sans', sans-serif;
+}
+.subBox{
+    padding:15px;
+}
+.formGroup{
+    padding:15px;
+    padding-left:0px;
+    padding-right:0px;
+    text-align: left;
+    font-family: 'Open Sans', sans-serif;
+}
+.subBox h3{
+    text-align: left;
+    font-family: 'Open Sans', sans-serif;
+}
+input {
+    width:100%;
+    margin-top:2px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #78909C;   
+    border-radius: 3px;
+    padding:5px;
+}
