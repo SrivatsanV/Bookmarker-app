@@ -6,14 +6,15 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>Bookmarker<div</title> <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
-    <script src="main.js"></script>
     <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
 </head>
 
-<body>
+<body onload="fetchResults()">
+<div class="wrapper">
     <div class='container'>
         <div class='header'>
             <h2>Bookmarker</h2>
+            <hr>
         </div>
 
         <div class='subBox'>
@@ -25,17 +26,20 @@
                 </div>
                 <div class='formGroup'>
                     <label>Site URL</label>
-                    <input type='text' id='sitename' placeholder="Website URL">
+                    <input type='text' id='siteurl' placeholder="Website URL">
                 </div>
-                <button type="submit" class="btn btn-primary">Submit</button>
+                <button type="submit" class="btn" >Submit</button>
             </form>
         </div><!--subBox-->
         <div>
-            <div class="group">
-                <div class="bookmarkResults"></div>
+            <div class="subBox1">
+                <div id="bookmarkResults"></div>
             </div>
-        </div>
+        </div>   
     </div><!--container-->
+</div>
+    <script src="main.js"></script>
 </body>
 
 </html>
+
